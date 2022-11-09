@@ -1,6 +1,7 @@
 import schedule from './schedule.json' assert {type: 'json'};
 
 let root = document.getElementById('root')
+root.innerHTML = "Safari Test"
 for(let i = 0; i < schedule.length; i++){
     let section = document.createElement('section')
     let header = document.createElement('h2')
