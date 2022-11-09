@@ -1,4 +1,5 @@
-import schedule from './schedule.json' assert {type: 'json'};
+// import schedule from './schedule.json' assert {type: 'json'};
+const schedule = require('./schedule.json');
 
 let root = document.getElementById('root')
 root.innerHTML = "Safari Test"
