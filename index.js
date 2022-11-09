@@ -1,4 +1,4 @@
-import schedule from './schedule.json' assert {type: 'json'};
+import schedule from 'moon-circle/schedule.json' assert {type: 'json'};
 
 let root = document.getElementById('root')
 for(let i = 0; i < schedule.length; i++){
