@@ -1,7 +1,7 @@
 body {
     background-color: #131313;
     color: white;
-    margin: none;
+    border: 1px solid #9e9e9e;
     background-image: url("moon.png");
     background-size: 100vmin;
     background-repeat: no-repeat;
