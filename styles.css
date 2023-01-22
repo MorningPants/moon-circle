@@ -2,14 +2,19 @@ body {
     background-color: #131313;
     color: white;
     border: 1px solid #9e9e9e;
-    background-image: url("moon.png");
+    /* background-image: url("moon.png");
     background-size: 100vmin;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment:fixed;
+    background-attachment:fixed; */
     min-height: 95vh;
     font-family: Arial, sans-serif;
     text-align: center;
+}
+
+img{
+    max-width: 100vw;
+    max-height: 100vh;
 }
 
 h1 {
