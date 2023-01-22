@@ -6,6 +6,7 @@ body {
     background-size: 100vmin;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment:fixed;
     min-height: 95vh;
     font-family: Arial, sans-serif;
     text-align: center;
