@@ -22,10 +22,18 @@ h1 {
     margin-bottom: 20px;
 }
 
+#root{
+    max-width: 120ch;
+    margin: 0 auto 40px;
+    border: 1px solid #9e9e9e;
+}
+
 section {
     background-color: rgba(50, 50, 50, 0.9);
-    padding: 10px 0 20px;
-    margin: 20px 0;
+    padding: 10px 20px 20px;
+    margin: 20px auto;
+    max-width: 80ch;
+    border-radius: 100vh;
 }
 
 h2 {
