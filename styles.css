@@ -1,4 +1,12 @@
 body {
+    background-color: #131313;
+    color: white;
+    margin: none;
+    background-image: url("moon.png");
+    background-size: 100vmin;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 95vh;
     font-family: Arial, sans-serif;
     text-align: center;
 }
@@ -9,9 +17,9 @@ h1 {
 }
 
 section {
-    background-color: #f2f2f2;
-    padding: 20px;
-    margin-bottom: 20px;
+    background-color: rgba(50, 50, 50, 0.9);
+    padding: 10px 0 20px;
+    margin: 20px 0;
 }
 
 h2 {
