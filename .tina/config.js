@@ -23,7 +23,7 @@ export default defineConfig({
       {
         label: 'schedule',
         name: 'Schedule',
-        path: '/schedule.json',
+        path: '/schema',
         fields: [
           {
             type: 'string',
