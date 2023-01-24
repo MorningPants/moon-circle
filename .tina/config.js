@@ -20,9 +20,27 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        name: 'string',
-        time: 'string',
-        description: "string"
+        label: 'schedule',
+        name: 'Schedule',
+        path: '/schedule.json',
+        fields: [
+          {
+            type: 'string',
+            label: 'Name',
+            name: 'name',
+          },
+          {
+            type: 'string',
+            label: 'Time',
+            name: 'time',
+          },
+          {
+            type: 'string',
+            label: 'Description',
+            name: 'description',
+            isBody: true,
+          },
+        ]
       }
     ],
   },
