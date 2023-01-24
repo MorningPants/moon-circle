@@ -30,10 +30,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Build
-        run: tinacms build
       - name: Setup Pages
         uses: actions/configure-pages@v2
+      - name: Build Tina Admin
+        id: build-tina-admin
+        run: |
+          yarn
+          tinacms build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
