@@ -34,9 +34,7 @@ jobs:
         uses: actions/configure-pages@v2
       - name: Build Tina Admin
         id: build-tina-admin
-        run: |
-          yarn
-          tinacms build
+        run: npm run tinacms build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
