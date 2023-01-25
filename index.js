@@ -1,6 +1,6 @@
 // import schedule from './schedule.json' assert {type: 'json'};
 // const schedule = require('./schedule.json');
-fetch("./schedule.json")
+fetch("./schema/schedule.json")
   .then((response) => {
     return response.json();
   })
